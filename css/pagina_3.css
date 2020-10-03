@@ -1,0 +1,154 @@
+@font-face
+{
+    font-family: DroidSans;
+    src: url("../ref/DroidSans-Bold.ttf");
+}
+
+
+#header
+{
+    width:80%;
+    margin: auto;
+    border-radius: 20px;
+    align-content: center;
+}
+
+#logo
+{
+    width: 26%;
+    padding: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+hr
+{
+    border: 2px solid #0A6172;
+}
+
+body 
+{
+    background-color: #F0F0F0;
+}
+
+div[name="buttons"]
+{
+    margin-top: 30px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button
+{
+    background-color:white; /* Green */ 
+    border: none;
+
+    color: #0A6172;
+    padding: 6px 16px;
+
+    text-align: center;
+    text-decoration: none;
+    font-family: DroidSans;
+    font-style: bold;
+    float: left;
+    font-size: 15px;
+}
+
+#button0
+{
+    border-top-left-radius: 36%;
+    border-bottom-left-radius: 36%;
+}
+
+#button2
+{
+    border-top-right-radius: 36%;
+    border-bottom-right-radius: 36%;
+}
+
+.disabled
+{
+    background-color: #0A6172;
+    color:white;
+}
+
+
+#articlebody
+{
+    background-color: white;
+    width: 50%;
+    position: relative;
+    left: 25%;
+    padding-bottom: 50px;
+}
+
+#titulo
+{
+    font-family: DroidSans;
+    font-style: bold;
+    color: #0A6172;
+    padding-top:6%;
+    text-align: center;
+
+}
+
+#bodyimage_fever
+{
+    display: block;
+    float: right;
+    width: 25%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 65px;
+}
+
+#bodyimage_cough
+{
+    display: block;
+    float: left;
+    width: 25%;
+    margin-left: 65px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 65px;
+}
+
+p
+{
+    text-align: justify;
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#symptom_list
+{
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#transmission_list
+{
+    margin-left: 65px;
+    margin-right: 65px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+div[name="rodape"]
+{
+    height: 50px;
+}
+
+#rodape
+{
+    text-align: center;
+}
